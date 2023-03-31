@@ -1,0 +1,21 @@
+ html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+<h1 style="font-family:verdana;"color:rgb(201, 29, 80) align="center">Tūrisms Itālijā</h1>
